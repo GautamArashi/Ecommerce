@@ -30,7 +30,7 @@ function App() {
     </div>
     <div className="center gap-10 flex-wrap">
 
-{data + map ((item)=>{
+{data.map ((item)=>{
   return(
     <div className="max-w-[400px] h-[500px] bg-gray-300  rounded-2xl p-2">
       <div className="bg-red-500 center"><img src={item.image} alt="" className='h-[290px] w-[390px]'/></div>
